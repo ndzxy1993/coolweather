@@ -114,7 +114,7 @@ public class Utility {
 		SimpleDateFormat sdf=new SimpleDateFormat("yyyy年M月d日",Locale.CHINA);
 		SharedPreferences.Editor editor=PreferenceManager.getDefaultSharedPreferences(context).edit();
 		editor.putBoolean("city_selected", true);
-		editor.putString("cityName",cityName );
+		editor.putString("city_name",cityName );
 		editor.putString("weather_code",weatherCode );
 		editor.putString("temp1",temp1 );
 		editor.putString("temp2",temp2 );
